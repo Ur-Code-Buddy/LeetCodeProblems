@@ -9,7 +9,7 @@ class Solution(object):
         zeroCount = 0
         result = 0
         length = len(nums)
-        for right in range(length):
+        for right in range(len(nums)):
             if nums[right] == 0:
                 zeroCount += 1
             while(zeroCount > k):
@@ -18,3 +18,4 @@ class Solution(object):
                 left += 1
             result = max(result, right - left + 1)
         return result
+            
