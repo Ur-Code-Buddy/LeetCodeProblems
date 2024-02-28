@@ -8,7 +8,6 @@ class Solution(object):
         left = 0
         zeroCount = 0
         result = 0
-        length = len(nums)
         for right in range(len(nums)):
             if nums[right] == 0:
                 zeroCount += 1
