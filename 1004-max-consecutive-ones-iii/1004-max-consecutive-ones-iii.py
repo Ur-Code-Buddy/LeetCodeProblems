@@ -5,11 +5,11 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        right = 0
         left = 0
         zeroCount = 0
         result = 0
-        for right in range(len(nums)):
+        length = len(nums)
+        for right in range(length):
             if nums[right] == 0:
                 zeroCount += 1
             while(zeroCount > k):
@@ -18,4 +18,3 @@ class Solution(object):
                 left += 1
             result = max(result, right - left + 1)
         return result
-            
