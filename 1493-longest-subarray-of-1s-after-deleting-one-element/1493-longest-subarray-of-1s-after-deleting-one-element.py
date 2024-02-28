@@ -16,5 +16,4 @@ class Solution(object):
                     zeroCount -= 1
                 left += 1
             result = max(result, right - left)
-        if not result: return 0
         return result
