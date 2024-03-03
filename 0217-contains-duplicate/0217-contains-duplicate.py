@@ -5,11 +5,9 @@ class Solution(object):
         :rtype: bool
         """
 
-        nums.sort()
-        length = len(nums)
-        for i in range(1,length):
-            if nums[i] == nums[i-1]:
+        hashset = set()
+        for i in nums:
+            if i in hashset:
                 return True
-        
+            else: hashset.add(i)
         return False
-        
