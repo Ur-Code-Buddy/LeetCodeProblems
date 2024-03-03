@@ -6,7 +6,8 @@ class Solution(object):
         """
 
         nums.sort()
-        for i in range(1,len(nums)):
+        length = len(nums)
+        for i in range(1,length):
             if nums[i] == nums[i-1]:
                 return True
         
