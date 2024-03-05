@@ -4,25 +4,16 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        n = len(nums)
-        prefix_products = [1] * n
-        suffix_products = [1] * n
-        result_list = [1] * n
-        
-        # Calculate prefix products
-        prefix_product = 1
-        for i in range(n):
-            prefix_products[i] = prefix_product
-            prefix_product *= nums[i]
-        
-        # Calculate suffix products
-        suffix_product = 1
-        for i in range(n - 1, -1, -1):
-            suffix_products[i] = suffix_product
-            suffix_product *= nums[i]
-        
-        # Calculate final result
-        for i in range(n):
-            result_list[i] = prefix_products[i] * suffix_products[i]
-        
-        return result_list
+        length = len(nums)
+        prefix = [1] * length
+        postfix = [1] * length
+        result = [1] * length
+
+        for i in range(1,length):
+            prefix[i] = prefix[i-1] * nums[i-1]
+        for i in range(length - 2,-1,-1):
+            postfix[i] = postfix[i+1] * nums[i+1]
+        for i in range(length):
+            result[i] = prefix[i] * postfix[i]
+
+        return result
