@@ -13,7 +13,6 @@ class Solution(object):
             prefix[i] = prefix[i-1] * nums[i-1]
         for i in range(length - 2,-1,-1):
             postfix[i] = postfix[i+1] * nums[i+1]
-        for i in range(length):
-            result[i] = prefix[i] * postfix[i]
+            
+        return [prefix[i] * postfix[i] for i in range(length)]
 
-        return result
