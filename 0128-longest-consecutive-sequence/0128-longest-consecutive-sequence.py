@@ -11,5 +11,6 @@ class Solution(object):
                 length = 1
                 while (n+length) in numset:
                     length += 1
-                longest = max(length, longest)
+                if length > longest:
+                    longest = length
         return longest
