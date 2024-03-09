@@ -5,17 +5,12 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: int
         """
-        i, j = 0, 0  
-        minimum = float('inf')  
-        while (i < len(nums1) and j < len(nums2)):
+        i, j = 0, 0
+        while i < len(nums1) and j < len(nums2):
             if nums1[i] == nums2[j]:
-                minimum = min(minimum, nums1[i])
-                i += 1
-                j += 1
+                return nums1[i] 
             elif nums1[i] < nums2[j]:
                 i += 1
             else:
                 j += 1
-        if minimum == float('inf'):
-            return -1 
-        return minimum
+        return -1
