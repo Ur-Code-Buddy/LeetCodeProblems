@@ -5,30 +5,23 @@
 #         self.next = next
 class Solution(object):
     def removeZeroSumSublists(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
-        # linked_array = []
-        # current = head
-        # while current:
-        #     linked_array.append(current.val)
-        #     current = current.next
-        dummy = ListNode(0, head)
+        dummy = ListNode(0)
+        dummy.next = head
         prefix = 0
         prefixToNode = {0: dummy}
 
         while head:
-          prefix += head.val
-          prefixToNode[prefix] = head
-          head = head.next
-
-        prefix = 0
-        head = dummy
-
-        while head:
-          prefix += head.val
-          head.next = prefixToNode[prefix].next
-          head = head.next
+            prefix += head.val
+            if prefix in prefixToNode:
+                node = prefixToNode[prefix].next
+                temp = prefix + node.val
+                while temp != prefix:
+                    del prefixToNode[temp]
+                    node = node.next
+                    temp += node.val
+                prefixToNode[prefix].next = head.next
+            else:
+                prefixToNode[prefix] = head
+            head = head.next
 
         return dummy.next
