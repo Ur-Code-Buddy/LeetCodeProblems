@@ -5,11 +5,13 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        hashmap = {}
-        index = 1
-        for val in numbers:
-            if target - val in hashmap:
-                return [hashmap[target-val],index]
+        l = 0
+        r = len(numbers) - 1
+        
+        while (l < r):
+            if numbers[l] + numbers[r] == target:
+                return [l+1,r+1]
+            elif numbers[l] + numbers[r] > target:
+                r -= 1
             else:
-                hashmap[val] = index
-            index += 1
+                l += 1
