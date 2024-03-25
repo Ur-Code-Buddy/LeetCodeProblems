@@ -4,11 +4,23 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        sorted_nums = nums.sort()
-        length = len(nums)
-
-        for i in range(1,length ):
-            if nums[i] == nums[i-1]:
-                return nums[i]
+        s, f = 0,0
+        
+        while(True):
+            s = nums[s]
+            f = nums[nums[f]]
+            if s == f:
+                break 
+                
+        start = 0
+        
+        while(True):
+            if s == start:
+                break
+                
+            s = nums[s]
+            start = nums[start]
+        return s
             
+        
         
