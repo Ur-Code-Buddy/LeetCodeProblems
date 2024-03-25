@@ -6,9 +6,11 @@ class Solution(object):
         """
         res = []
         for n in nums:
-            if nums[abs(n) - 1] < 0:
-                res.append(abs(n))
+            if n < 0:
+                n = -n
+            if nums[n - 1] < 0:
+                res.append(n)
             else:
-                nums[abs(n) - 1] *= -1
+                nums[n - 1] = - nums[n - 1]
                 
         return res
