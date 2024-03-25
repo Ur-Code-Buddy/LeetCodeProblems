@@ -4,13 +4,12 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        nums.sort()
         res = []
-        for i in range(1,len(nums)):
-            if nums[i] == nums[i - 1]:
-                res.append(nums[i])
-            while(i < len(nums) and nums[i] == nums[i - 1]):
-                i += 1
+        for n in nums:
+            n = abs(n)
+            if nums[n - 1] < 0:
+                res.append(n)
+            else:
+                nums[n - 1] = - nums[n - 1]
+                
         return res
-            
-            
