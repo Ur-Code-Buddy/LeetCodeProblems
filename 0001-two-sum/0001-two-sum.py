@@ -7,13 +7,14 @@ class Solution(object):
         """
         hashmap = {}
         index = 0
+        
         for val in nums:
             if target - val in hashmap:
-                return [index,hashmap[target-val] ]
+                return [index,hashmap[target-val]]
             else:
                 hashmap[val] = index
-                
             index += 1
                 
         
+                
                 
