@@ -5,8 +5,9 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         hashmap = {}
+        
         for word in strs:
-            sorted_word = ''.join(sorted(word))
+            sorted_word = ''.join( sorted(word) )
             if sorted_word in hashmap:
                 hashmap[sorted_word].append(word)
             else:
