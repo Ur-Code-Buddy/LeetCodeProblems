@@ -5,9 +5,8 @@ class Solution(object):
         :rtype: bool
         """
 
-        hashmap = set()
-        for i in nums:
-            hashmap.add(i)
-        if len(hashmap) != len(nums):
+        hashset = set(nums)
+        if len(hashset) != len(nums):
             return True
         return False
+    
