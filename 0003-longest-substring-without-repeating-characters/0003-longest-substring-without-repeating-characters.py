@@ -15,7 +15,9 @@ class Solution(object):
                 hashset.remove(s[l])
                 l += 1
             hashset.add(s[r])
-            max_length = max(max_length, r - l + 1)
+            if max_length < r - l + 1:
+                max_length = r - l + 1
+            # max_length = max(max_length, r - l + 1)
         return max_length
             
         
