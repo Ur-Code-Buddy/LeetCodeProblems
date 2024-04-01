@@ -13,7 +13,7 @@ class Solution(object):
             end -= 1
         
         length = 0
-        while end >= 0 and s[end] != " ":
+        while end >= 0 and s[end] != ' ':
             length += 1
             end -= 1
             
