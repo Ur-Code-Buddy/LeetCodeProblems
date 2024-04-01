@@ -6,16 +6,14 @@ class Solution(object):
         """
         if not s:
             return 0
-        r = len(s) - 1
-        res = 0
-        while (True):
-            if res and s[r] == ' ':
-                return res
-            elif s[r] != ' ':
-                res += 1
-            r -= 1
-            
-            if r < 0:
-                return res
-
         
+        end = len(s) - 1
+        while end >= 0 and s[end] == ' ':
+            end -= 1
+        
+        length = 0
+        while end >= 0 and s[end] != ' ':
+            length += 1
+            end -= 1
+        
+        return length
