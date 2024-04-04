@@ -4,23 +4,22 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
         l = 0
         r = len(nums) - 1
-        res = nums[0]
+        minimum = nums[0]
         
-        while(l <= r):
+        while (l <= r):
             if nums[l] < nums[r]:
-                res = min(res, nums[l] )
-                break
+                minimum = min(minimum, nums[l])
+                
+            m = (l + r) // 2
             
-            m = (r + l) // 2
-            res = min(res, nums[m])
-            if nums[m] >= nums[l]:
+            minimum = min(minimum, nums[m])
+            
+            if nums[l] <= nums[m]:
                 l = m + 1
             else:
                 r = m - 1
-        return res
-            
-            
-            
+                
+        return minimum
+        
