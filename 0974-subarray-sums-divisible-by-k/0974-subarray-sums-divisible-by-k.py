@@ -6,7 +6,7 @@ class Solution(object):
         ans = 0
 
         for num in nums:
-            sum = (sum + num % k + k) % k
+            sum = (sum + num % k) % k
             ans += freq[sum]
             freq[sum] += 1
 
