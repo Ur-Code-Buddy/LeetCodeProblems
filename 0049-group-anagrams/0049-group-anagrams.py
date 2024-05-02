@@ -5,14 +5,17 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         hashmap = {}
-
         
-        for n in strs:
-            sorted_word = ''.join(sorted(n))
-            if sorted_word in hashmap:
-                hashmap[sorted_word].append(n)
+        if not strs:
+            return 
+        
+        for val in strs:
+            sorted_value = "".join(sorted(val))
+            if sorted_value in hashmap:
+                hashmap[sorted_value].append(val)
             else:
-                hashmap[sorted_word] = [n]
-        return list(hashmap.values() )
+                hashmap[sorted_value] = [val]
                 
+                
+        return list(hashmap.values() )
         
