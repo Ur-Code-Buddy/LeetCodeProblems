@@ -4,18 +4,16 @@
  */
 var once = function(fn) {
     let called = false;
-    
-    return function(...args){
-        if (!called){
-            called = !called;
-            return fn(...args);
-        }
-        else{
-            return undefined;
-        }
-    }
-};
 
+    return function(...args) {
+        let result = undefined;
+        if (!called) {
+            called = true;
+            result = fn(...args);
+        }
+        return result;
+    };
+};
 /**
  * let fn = (a,b,c) => (a + b + c)
  * let onceFn = once(fn)
