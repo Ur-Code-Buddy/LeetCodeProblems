@@ -3,9 +3,10 @@
  * @return {Function}
  */
 var compose = function(functions) {
+    const length = functions.length;
     
     return function(x) {
-        for (let i = functions.length - 1; i >= 0; i --){
+        for (let i = length - 1; i >= 0; i --){
             x = functions[i](x);
         }
         return x;
