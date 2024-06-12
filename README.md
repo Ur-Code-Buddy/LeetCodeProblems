@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0001-two-sum) |
+| [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0128-longest-consecutive-sequence) |
 | [0303-range-sum-query-immutable](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0303-range-sum-query-immutable) |
 | [0525-contiguous-array](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0525-contiguous-array) |
@@ -39,3 +40,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0303-range-sum-query-immutable) |
+# Two Pointers
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
+# Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
