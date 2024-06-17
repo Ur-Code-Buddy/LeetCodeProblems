@@ -4,16 +4,25 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        length = len(nums)
-        result = [1] * length
-        temp = 1
 
-        for i in range(length):
-            result[i] *= temp
-            temp *= nums[i]
+        length = len(nums)
+        lp = []
+        rp = []
+        res_arr = []
+        
         temp = 1
         for i in range(length - 1,-1,-1):
-            result[i] *= temp
+            temp = temp * nums[i]
+            rp.append(temp)
+        rp.reverse()
+        temp = 1
+        for i in range(length):
+            if i + 1 < length:
+                res_arr.append( temp * rp[i + 1])
+            else:
+                res_arr.append(temp)
+                
             temp *= nums[i]
-        return result
 
+        return res_arr
+        
