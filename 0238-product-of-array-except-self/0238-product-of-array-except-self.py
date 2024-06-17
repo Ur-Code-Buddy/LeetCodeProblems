@@ -6,7 +6,6 @@ class Solution(object):
         """
 
         length = len(nums)
-        lp = []
         rp = []
         res_arr = []
         
