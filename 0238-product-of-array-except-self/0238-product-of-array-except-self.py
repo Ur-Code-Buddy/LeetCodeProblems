@@ -6,22 +6,17 @@ class Solution(object):
         """
 
         length = len(nums)
-        rp = []
-        res_arr = []
+        res_arr = [1] * length
+        temp = 1
+        
+        for i in range(length):
+            res_arr[i] = temp
+            temp *= nums[i]
         
         temp = 1
-        for i in range(length - 1,-1,-1):
-            temp = temp * nums[i]
-            rp.append(temp)
-        rp.reverse()
-        temp = 1
-        for i in range(length):
-            if i + 1 < length:
-                res_arr.append( temp * rp[i + 1])
-            else:
-                res_arr.append(temp)
-                
+
+        for i in range(length - 1, -1, -1):
+            res_arr[i] *= temp
             temp *= nums[i]
 
         return res_arr
-        
