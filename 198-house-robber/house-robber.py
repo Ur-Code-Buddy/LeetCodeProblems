@@ -1,14 +1,14 @@
 class Solution(object):
     def rob(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        rob1, rob2 = 0,0
+        memo = {}
 
-        for n in nums:
-            temp = max(n + rob1, rob2)
-            rob1 = rob2
-            rob2 = temp 
-        return rob2
-        
+        def _rob(i):
+            if i < 0:
+                return 0
+            if i in memo:
+                return memo[i]
+            result = max(_rob(i - 2) + nums[i], _rob(i - 1))
+            memo[i] = result
+            return result
+
+        return _rob(len(nums) - 1)
