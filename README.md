@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0303-range-sum-query-immutable) |
 | [0525-contiguous-array](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0525-contiguous-array) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 # Hash Table
 |  |
 | ------- |
