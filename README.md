@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0198-house-robber) |
 | [0238-product-of-array-except-self](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
+| [0268-missing-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0303-range-sum-query-immutable) |
 | [0485-max-consecutive-ones](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0485-max-consecutive-ones) |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0128-longest-consecutive-sequence](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0128-longest-consecutive-sequence) |
+| [0268-missing-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0268-missing-number) |
 | [0525-contiguous-array](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0525-contiguous-array) |
 # Prefix Sum
 |  |
@@ -62,10 +64,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
+| [0268-missing-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0268-missing-number) |
 # Binary Search
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0268-missing-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0268-missing-number) |
 # Dynamic Programming
 |  |
 | ------- |
@@ -74,3 +78,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0268-missing-number) |
+# Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0268-missing-number) |
