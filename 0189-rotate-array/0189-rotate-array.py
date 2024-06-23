@@ -11,10 +11,8 @@ class Solution(object):
         # Reverse the entire list
         nums.reverse()
 
-        print(nums[:k])
         # Reverse the first k elements
         nums[:k] = reversed(nums[:k])
-        print(nums)
 
         # Reverse the remaining elements
         nums[k:] = reversed(nums[k:])
