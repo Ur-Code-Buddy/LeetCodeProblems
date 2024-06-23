@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0198-house-robber) |
 | [0238-product-of-array-except-self](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0303-range-sum-query-immutable) |
+| [0485-max-consecutive-ones](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0485-max-consecutive-ones) |
 | [0525-contiguous-array](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0525-contiguous-array) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
