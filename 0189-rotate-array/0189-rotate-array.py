@@ -5,20 +5,16 @@ class Solution(object):
         :type k: int
         :rtype: None Do not return anything, modify nums in-place instead.
         """
-        temp = []
         n = len(nums)
-        k = k % n
+        k = k % n  # In case k is larger than the length of nums
+
+        # Reverse the entire list
         nums.reverse()
 
-        for i in range(k):
-            temp.append(nums[i])
-
-        for i in range(k, n ):
-            nums[i - k] = nums[i]
-
-        for i in range(k):
-            nums[n - k + i] = temp[i]
-
-        nums.reverse()
-
+        print(nums[:k])
+        # Reverse the first k elements
+        nums[:k] = reversed(nums[:k])
         print(nums)
+
+        # Reverse the remaining elements
+        nums[k:] = reversed(nums[k:])
