@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0015-3sum) |
+| [0074-search-a-2d-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0136-single-number) |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0268-missing-number) |
 # Dynamic Programming
@@ -85,3 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0136-single-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0268-missing-number) |
+# Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0074-search-a-2d-matrix) |
