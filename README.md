@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0015-3sum) |
+| [0054-spiral-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0128-longest-consecutive-sequence) |
@@ -90,4 +91,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0074-search-a-2d-matrix) |
+# Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0054-spiral-matrix) |
