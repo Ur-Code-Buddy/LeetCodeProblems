@@ -105,9 +105,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Two Pointers
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
+## Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
