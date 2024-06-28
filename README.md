@@ -100,3 +100,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0054-spiral-matrix) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+<!---LeetCode Topics End-->
