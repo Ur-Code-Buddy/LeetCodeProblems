@@ -1,21 +1,10 @@
 class Solution(object):
-    def maxProfit(self, prices):
-        """
-        :type prices: List[int]
-        :rtype: int
-        """
-        l = 0
-        length = len(prices)
-        maxProfit = 0
-        
-        for r in range(length):
-            if prices[l] < prices[r]:
-                maxProfit = max(maxProfit, prices[r] - prices[l])
-            else:
-                l = r
-            
-        return maxProfit
-                
-        
-        
-        
+    
+    def maxProfit(self,arr):
+        maxPro = 0
+        minPrice = float('inf')
+        for i in range(len(arr)):
+            minPrice = min(minPrice, arr[i])
+            maxPro = max(maxPro, arr[i] - minPrice)
+        return maxPro
+
