@@ -121,8 +121,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0242-valid-anagram) |
 ## Hash Table
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0242-valid-anagram) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
