@@ -105,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0217-contains-duplicate) |
@@ -119,16 +120,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0242-valid-anagram) |
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
