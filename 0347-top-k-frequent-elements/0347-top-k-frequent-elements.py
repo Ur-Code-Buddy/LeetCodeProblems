@@ -14,7 +14,7 @@ class Solution(object):
         res = []
         for n, c in count.items():
             arr[c].append(n)
-        print(arr) #[[], [3], [2], [1], [], [], []]
+
 
         for i in range(len(arr) - 1, 0, -1):
             for j in arr[i]:
