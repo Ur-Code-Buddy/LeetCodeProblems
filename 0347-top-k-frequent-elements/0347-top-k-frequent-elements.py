@@ -5,17 +5,23 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        counts = {}
-        freq = [[] for i in range(len(nums) + 1)]
+        count = {}
+        arr = [[] for i in range(len(nums) + 1)]
         
-        for n in nums:
-            counts[n] = 1 + counts.get(n,0)
-        for c, n in counts.items():
-            freq[n].append(c)
+        for val in nums:
+            count[val] = 1 + count.get(val,0)
+        
+        res = []
+        for n, c in count.items():
+            arr[c].append(n)
+        print(arr) #[[], [3], [2], [1], [], [], []]
 
-        counts = []
-        for i in range(len(freq) - 1, 0, -1):
-            for n in freq[i]:
-                counts.append(n)
-                if len(counts) == k:
-                    return counts
+        for i in range(len(arr) - 1, 0, -1):
+            for j in arr[i]:
+                res.append(j)
+                if len(res) == k:
+                    return res
+
+        
+
+        
