@@ -4,7 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        if len(nums) == len(set(nums)):
-            return False
-        return True
+        hash_set = set()
+        for val in nums:
+            if val in hash_set:
+                return True
+            else:
+                hash_set.add(val)
+        return False
+    
+
+
         
