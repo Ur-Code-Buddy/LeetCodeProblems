@@ -4,9 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-
-        hashset = set(nums)
-        if len(hashset) != len(nums):
-            return True
-        return False
-    
+        if len(nums) == len(set(nums)):
+            return False
+        return True
+        
