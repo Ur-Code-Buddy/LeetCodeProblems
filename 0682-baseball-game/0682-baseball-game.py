@@ -15,7 +15,4 @@ class Solution(object):
                 stack.pop() 
             else:
                 stack.append(int(i) )
-        res = 0
-        for i in stack:
-            res = res + i
-        return res
+        return sum(stack)
