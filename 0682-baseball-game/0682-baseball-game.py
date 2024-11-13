@@ -4,15 +4,17 @@ class Solution(object):
         :type operations: List[str]
         :rtype: int
         """
-        stack = []
+        res_sum = []
 
         for i in operations:
             if i == "+":
-                stack.append(stack[-1] + stack[-2]) 
-            elif i == "D": 
-                stack.append(stack[-1] * 2 )
+                temp = res_sum[-1] + res_sum[-2]
+                res_sum.append(temp)
+            elif i == "D":
+                temp = 2 * res_sum[-1]
+                res_sum.append(temp)
             elif i == "C":
-                stack.pop() 
+                res_sum.pop()
             else:
-                stack.append(int(i) )
-        return sum(stack)
+                res_sum.append(int(i))
+        return sum(res_sum)
