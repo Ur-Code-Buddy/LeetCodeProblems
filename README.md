@@ -169,9 +169,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0155-min-stack) |
 | [0682-baseball-game](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0682-baseball-game) |
 ## Simulation
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0682-baseball-game) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Ur-Code-Buddy/LeetCodeProblems/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
