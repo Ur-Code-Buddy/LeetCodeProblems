@@ -4,12 +4,11 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        hashmap = {}
-        for word in strs:
-            sorted_word = ''.join(sorted(word))
-            if sorted_word not in hashmap:
-                hashmap[sorted_word] = []
-            hashmap[sorted_word].append(word)
-        return list(hashmap.values() )
-
-        
+        hashset = {}
+        for i in strs:
+            sorted_var = "".join(sorted(i))
+            if sorted_var in hashset:
+                hashset[sorted_var].append(i) 
+            else:
+                hashset[sorted_var] = [i]
+        return list(hashset.values() )
