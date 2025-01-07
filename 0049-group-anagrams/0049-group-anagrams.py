@@ -5,10 +5,11 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         hashset = {}
-        for i in strs:
-            sorted_var = "".join(sorted(i))
-            if sorted_var in hashset:
-                hashset[sorted_var].append(i) 
+        for word in strs:
+            sorted_word = " ".join(sorted(word))
+            if sorted_word in hashset:
+                hashset[sorted_word].append(word)
             else:
-                hashset[sorted_var] = [i]
-        return list(hashset.values() )
+                hashset[sorted_word] = [word]
+        return hashset.values()
+        
